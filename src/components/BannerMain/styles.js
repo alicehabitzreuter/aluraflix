@@ -117,4 +117,4 @@ export const WatchButton = styled.button`
   @media (max-width: 800px) {
     display: block;
   }
-`;
+`; 
