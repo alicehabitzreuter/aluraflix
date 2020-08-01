@@ -7,10 +7,22 @@ function CadastroCategoria(){
      <PageDefault>
         <h1>Cadastro de Categoria</h1>
       
+        <form>
+          <label>
+            Nome da Categoria
+            <input
+              type="text"
+            />
+          </label>
 
-      <Link to='/'>
-        Ir para Home
-      </Link>
+          <button>
+            Cadastrar
+          </button>
+        </form>
+
+        <Link to='/'>
+          Ir para Home
+        </Link>
       </PageDefault>
     )
   }
